@@ -1,0 +1,216 @@
+/* Main wrappers "positions page" */
+#wrapper960{
+	background-color: #888888;
+	margin: 85px auto;
+	width: 100%;
+}
+/* BODY 
+{ 
+     padding-right: 0px;
+     padding-left: 60px; 
+     
+} */
+.centerTable { margin: 0px auto; }
+table, th, td {
+    text-align: left;
+    vertical-align: top;
+    font-family: monospace;
+}
+h1 {
+    text-align:center;
+    border-radius: 25px;
+    background-color:#7F7C7C;
+    font-size: 40px;
+    font-family: monospace;
+		}
+.fhead {
+    text-align:center;
+    font-size: 40px;
+    font-family: monospace;
+		}
+img.main {
+		border:10px solid #7F7C7C;
+		width:300;
+		height:259;
+		margin : 0px auto;
+		}
+h2.first {
+    text-align:center;
+    border-radius: 25px;
+    background-color:#7F7C7C;
+    font-size: 30px;
+    font-family: monospace;
+		}
+h2.second {
+    text-align:right;
+    background-color:#C8C8C8;
+    font-size: 30px;
+    font-family: monospace;
+		}
+
+h3 {
+		}
+h4 {
+    text-align:center;
+    background-color:#7F7C7C;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: monospace;
+}
+td {
+    font-size: 15px;
+		}
+
+p.f19resources {
+    font-family: monospace;
+    font-size: 14px;
+    padding-right: 170px;
+    padding-left: 40px;
+}
+p {
+    font-family: monospace;
+    font-size: 18px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+li {
+    font-family: monospace;
+		}
+body { 
+    background-color:#888888; 
+    /* position:relative; */ 
+    font-size: 16px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: monospace;
+     }
+.mask { 
+		float:left; 
+		margin:40px; 
+		width:400px; 
+		height:266px; 
+		overflow:hidden;  
+		}
+ul.imgHolder { 
+		position:relative; 
+		top:0px;
+		left:0px; 
+		}
+ul.imgHolder li { 
+		position:absolute; 
+		top:0px;
+		left:0px; 
+		}
+ul.thumbHolder { 
+		position:absolute; 
+		top:310px; 
+		left:100px; 
+		}
+ul.thumbHolder li { 
+		float:left; margin:0 5px; font: bold 16px arial; cursor:pointer;
+		background-color:#ccc; color:#000; padding:10px;
+    }
+ul.thumbHolder li.selected {
+		background-color:#fff; 
+		color:#000;
+		}
+.control {
+		position:absolute; 
+		top: 400px; 
+		color:#fff;
+		}
+.Bleft { 
+		left:150px; 
+		}
+.Bright { 
+		left:200px; 
+		}
+
+div.intable {
+		font-family: monospace;
+		align : center;
+    margin : 10px auto 20px;
+    display : block;
+}
+div.scroll {
+	width:850px;
+	height:350px;
+	line-height:1.5em;
+	overflow:scroll;
+	padding:14px;
+	background-color:#888888;
+	color:#000000;
+	border:4px double #000000;
+	font-family: monospace;
+	border:6px ridge #7F7C7C;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid black;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: black;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #88ba1c;  
+}
+
+pre.full {
+    font-size: 16px;
+    font-family: monospace;
+}
+pre.part {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+/* MISC */
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  content: '.'; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  #downloads {
+    margin-bottom: 25px; }
+
+  #download-zip, #download-tar-gz {
+    display: none; }
+
+  .inner {
+    width: 94%;
+    margin: 0 auto; } }
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+#testing div {
+  margin-left: 10px;/*or whatever indentation size you want*/
+}
