@@ -41,7 +41,7 @@ for j,ff in enumerate(files):
             c = i
             break
     f = os.path.splitext(ff)[0].split("/")
-    stime=pendulum.from_format(f[-1],'MMDDYYYY').format("dddd MMMM D Y")
+    stime=pendulum.from_format(f[-1],'MMDDYYYY').format("ddd MMM D, Y")
     outlines += [f"\n<!--card-- pages/{f[-1]}.html --{stime}-->\n\n"]
     outlines += new_card(title=title,date=stime,i=j+1)
     outlines += lines[c+1:] + ["\n\n</div>\n","</div>\n","</div>\n"]
