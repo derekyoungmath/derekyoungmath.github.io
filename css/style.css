@@ -214,3 +214,6 @@ pre.part {
 #testing div {
   margin-left: 10px;/*or whatever indentation size you want*/
 }
+.root {
+  color-scheme: only light;
+}
