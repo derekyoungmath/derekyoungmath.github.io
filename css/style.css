@@ -19,7 +19,6 @@ table, th, td {
 h1 {
     text-align:center;
     border-radius: 25px;
-    background-color:#7F7C7C;
     font-size: 40px;
     font-family: monospace;
 		}
@@ -29,21 +28,22 @@ h1 {
     font-family: monospace;
 		}
 img.main {
-		border:10px solid #7F7C7C;
+		/* border:10px solid #7F7C7C; */
 		width:300;
+		border-radius: 30%;
 		height:259;
 		margin : 0px auto;
 		}
 h2.first {
     text-align:center;
     border-radius: 25px;
-    background-color:#7F7C7C;
+    /* background-color:#7F7C7C; */
     font-size: 30px;
     font-family: monospace;
 		}
 h2.second {
     text-align:right;
-    background-color:#C8C8C8;
+    /* background-color:#C8C8C8; */
     font-size: 30px;
     font-family: monospace;
 		}
@@ -54,16 +54,16 @@ h4 {
     text-align:center;
     background-color:#7F7C7C;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 18;
     font-family: monospace;
 }
 td {
-    font-size: 15px;
+    font-size: 18;
 		}
 
 p.f19resources {
     font-family: monospace;
-    font-size: 14px;
+    font-size: 18;
     padding-right: 170px;
     padding-left: 40px;
 }
@@ -77,9 +77,10 @@ li {
     font-family: monospace;
 		}
 body { 
-    background-color:#888888; 
+    background-color:#222526; 
+    color:#888888; 
     /* position:relative; */ 
-    font-size: 16px;
+    font-size: 18;
     padding-right: 60px;
     padding-left: 60px;
     font-family: monospace;
@@ -213,4 +214,27 @@ pre.part {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 #testing div {
   margin-left: 10px;/*or whatever indentation size you want*/
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2f54cf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008080;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
